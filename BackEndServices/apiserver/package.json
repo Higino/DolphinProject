@@ -1,0 +1,25 @@
+{
+  "name": "DolphinProject-BackEndServicesAPI",
+  "version": "0.1.0",
+  "description": "The back end api implementation for the site platform",
+  "main": "api-server.js",
+  "scripts": {
+    "start": "echo 'Starting server' & node api-server.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Higino/DolphinProject.git"
+  },
+  "author": "Higino Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0",
+    "sinon": "^6.0.0"
+  }
+}
