@@ -4,8 +4,9 @@
   "description": "The back end api implementation for the site platform",
   "main": "api-server.js",
   "scripts": {
-    "docker-build": "rm -rf node_modules && npm i --production && docker-build",
-    "docker-run": "docker-run -p 9000:9000 +",
+    "predocker:build": "npm test",
+    "docker:build": "docker-build",
+    "docker:run": "docker-run -p 9000:9000 +",
     "start": "echo 'Starting server' & node api-server.js",
     "test": "mocha test"
   },

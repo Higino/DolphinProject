@@ -5,7 +5,7 @@ WORKDIR /apiserver
 COPY ./package.json /apiserver
 COPY api-server.js /apiserver
 COPY ./app/ /apiserver/app/
-RUN npm install
+RUN npm install --production
 
 
 
