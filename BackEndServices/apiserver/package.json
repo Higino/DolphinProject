@@ -4,6 +4,8 @@
   "description": "The back end api implementation for the site platform",
   "main": "api-server.js",
   "scripts": {
+    "docker-build": "rm -rf node_modules && npm i --production && docker-build",
+    "docker-run": "docker-run -p 9000:9000 +",
     "start": "echo 'Starting server' & node api-server.js",
     "test": "mocha test"
   },
@@ -14,6 +16,7 @@
   "author": "Higino Silva",
   "license": "ISC",
   "dependencies": {
+    "docker-build-run-push": "^3.0.0",
     "express": "^4.15.3"
   },
   "devDependencies": {
