@@ -17,10 +17,10 @@
   "author": "Higino Silva",
   "license": "ISC",
   "dependencies": {
-    "docker-build-run-push": "^3.0.0",
     "express": "^4.15.3"
   },
   "devDependencies": {
+    "docker-build-run-push": "^3.0.0",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "request": "^2.87.0",
