@@ -2,7 +2,7 @@ const chai = require("chai");
 const expect = chai.expect;
 const sinon = require("sinon");
 
-const services = require("../api-services.js");
+const services = require("../app/api-services");
 
 describe("Rest Services Smoke Tests", function() {
   it("should invoke a res.end so we can send a response to client", function() {
@@ -15,4 +15,5 @@ describe("Rest Services Smoke Tests", function() {
     services.getProducts(req, res);
     expect(res.end.calledOnce).to.be.true;
   });
+  
 });

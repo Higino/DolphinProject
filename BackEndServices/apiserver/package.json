@@ -1,5 +1,5 @@
 {
-  "name": "DolphinProjectAPI",
+  "name": "dolphin-api-server",
   "version": "0.1.0",
   "description": "The back end api implementation for the site platform",
   "main": "api-server.js",
