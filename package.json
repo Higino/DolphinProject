@@ -1,0 +1,20 @@
+{
+  "name": "dolphin-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node start-local-server.js",
+    "client": "node start-local-client.js"
+  },
+  "author": "Higino Silva",
+  "license": "ISC"
+}
